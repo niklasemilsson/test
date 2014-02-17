@@ -18,6 +18,16 @@ namespace codekata1
 
             return int.Parse(input);
         }
+
+        public int Subtract(string input)
+        {
+            if (string.IsNullOrEmpty(input))
+            {
+                return 0;
+            }
+
+            return int.Parse(input);
+        }
     }
 
     public class StringCalculatorTest
